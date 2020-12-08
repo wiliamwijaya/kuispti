@@ -1,0 +1,138 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: digital;
+    background-color: black;
+}
+.time
+{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid cyan;
+    box-sizing: border-box;
+    background: #e2e2e2;
+}
+input[type]
+{
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+    padding: 0px 17px;
+    border: none;
+    outline: none;
+    color:black;
+    font-family: digial;
+    background: transparent;
+}
+input[type]::placeholder
+{
+    font-size: 50px;
+    color: cyan;
+}
+span
+{
+    display: block;
+    height: 70px;
+    width: 30px;
+    font-size: 50px;
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn
+{
+    position: relative;
+    height: 80px;
+    width: 300px;
+}
+.btn .start
+{
+    height: 80px;
+    width: 300px;
+    background: cyan;
+    font-size: 50px;
+    color: #e2e2e2;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    cursor: pointer;
+}
+.btn .pause,.resume
+{
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #9C27B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 35px;
+    box-sizing: border-box;
+    color: #e2e2e2;
+    letter-spacing: 2px;
+    visibility: hidden;
+}
+.btn .resume
+{
+    visibility: hidden;
+    background:green;
+    border: 5px solid whitesmoke;
+    border-top: 0px solid transparent;
+    color:white;
+}
+.btn .pause
+{
+    border-right: 1px solid #e2e2e2;
+}
+.btn .reset
+{
+    width: 150px;
+    height: 80px;
+    background: red;
+    color: #e2e2e2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
